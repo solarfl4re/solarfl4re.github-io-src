@@ -1,0 +1,3 @@
+[submodule "output"]
+	path = output
+	url = https://github.com/solarfl4re/solarfl4re.github.io.git
