@@ -7,6 +7,8 @@ SITENAME = '0x38B - Thoughts on language learning and more'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 TIMEZONE = 'America/Anchorage'
 
