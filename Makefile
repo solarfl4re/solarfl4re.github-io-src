@@ -118,7 +118,7 @@ cf_upload: publish
 	cd $(OUTPUTDIR) && swift -v -A https://auth.api.rackspacecloud.com/v1.0 -U $(CLOUDFILES_USERNAME) -K $(CLOUDFILES_API_KEY) upload -c $(CLOUDFILES_CONTAINER) .
 
 github: publish
-	cd $(OUTPUTDIR) && git push https://${secure}@github.com/solarfl4re/solarfl4re.github.io.git master
+	cd $(OUTPUTDIR) && git push https://${GH_TOKEN}@github.com/solarfl4re/solarfl4re.github.io.git master
 	# ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	# git push origin $(GITHUB_PAGES_BRANCH)
 
