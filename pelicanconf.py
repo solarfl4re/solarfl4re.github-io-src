@@ -11,7 +11,7 @@ PATH = 'content'
 TIMEZONE = 'America/Anchorage'
 
 DEFAULT_LANG = 'en'
-THEME = 'blue-penguin'
+THEME = 'themes/blue-penguin'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
