@@ -1,3 +1,6 @@
 [submodule "output"]
 	path = output
 	url = https://github.com/solarfl4re/solarfl4re.github.io.git
+[submodule "themes/blue-penguin"]
+	path = themes/blue-penguin
+	url = https://github.com/solarfl4re/blue-penguin.git
