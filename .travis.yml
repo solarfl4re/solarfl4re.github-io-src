@@ -5,7 +5,9 @@ install: pip install -r requirements.txt
 before-script:
 - git submodule init
 - git submodule update
-script: ./generate.sh deploy
+script: 
+  - pelican -s pelicanconf.py
+  - ./generate.sh deploy
 env:
   global:
   - secure: QZEGRjsB6iw8ZoK9C3SV2gitRrpbPt/tKOk4eJ/efH6UjiZENYLKQxEVRrY7GONewpX+Pw7EyElfBjK6ZQ9UnjEdhXYOFvNRWnD85KzkrD+YcJEwQfjcgg/axXnQCMFvgLVo1n1N0k/TErsR2l1/6IaEJfYSAUA4QzPOg6WlnGPjVS2ZETwu0e2PD0/cvi+sLCNY/czy+A5GNI9YZotRI5/LXMpmqc5wAUnsPGY+bvarj3km+sv02niwcC1+YNnRTJik7+VSSXecahPPMKJrYgU4PKSq80NxorXDfx4wGMz4n/EwmJHGuWRmJJ9Cn4WazL09u4A0WIG2TFcTdIvnjKKyMahD+NGKomaxkrFIKtLRf/7olrG0pL4tsNdPc91MxH+F/MIyLiml1pheJ8ZTZycUzRdAGpJ+UgzV7KF8cPEDWDCaGtxKcQeGgE2Cz8FMsP1qsufhi4kF+bjbbikZbHnskuWeMQs/9sAXdPaVq/RYbHUIxzEtbs8uSye95kW38v8KL3M0FGNLdirlxZNwICLLRW00fb/x5vy+YWSTizIbaV9rpbRH4g4Dtm756cknu98ytY2GczMZ6nra6pBkIMEndHANnqvE1H4mzlyZUh2a6tjT4Dt7CRgATHuV+co9FCCa8DyUVU7PQmk5cpAgNtQ5lzd0mJ2k7oIollxPhvM=
