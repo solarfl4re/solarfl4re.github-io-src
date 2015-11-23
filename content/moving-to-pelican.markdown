@@ -14,10 +14,11 @@ install: pip install -r requirements.txt
 before-script:
 - git submodule init
 - git submodule update
-script: ./generate.sh deploy
+script: pelican -s pelicanconf.py
+after_success: ./generate.sh deploy
 env:
   global:
-  - secure: (Encrypted github key here)
+  - secure: (Encrypted Github key here)
 ```
 
 I edited Kevin's [generate.sh](https://github.com/iKevinY/iKevinY.github.io/blob/src/generate.sh) to push to my Github user page's master branch. Hopefully it works...
