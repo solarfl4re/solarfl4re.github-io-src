@@ -1,5 +1,6 @@
 Title: Moving to Pelican and Travis CI
 Date: 11/21/15
+Modified: 11/23/15
 Category: Blog
 Tags: pelican, travis cl
 Author: David Lane
