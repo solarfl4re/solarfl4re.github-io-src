@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'David'
 SITENAME = '0x38B - Thoughts on language learning and more'
-SITEURL = ''
+SITEURL = 'http://0x38b.com'
 
 PATH = 'content'
 STATIC_PATHS = ['images', 'extra/CNAME']
