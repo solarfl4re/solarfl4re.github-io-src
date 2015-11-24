@@ -28,9 +28,15 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
 
+# MENUITEMS = (
+#     ('About', 'https://github.com/'),
+#     ('Linux Kernel', 'https://www.kernel.org/'),
+# )
+
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
+DISQUS_SITENAME = '0x38b'
 
 DEFAULT_PAGINATION = False
 
