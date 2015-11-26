@@ -7,7 +7,7 @@ SITENAME = '0x38B - Thoughts on language learning and more'
 SITEURL = 'http://0x38b.com'
 
 PATH = 'content'
-STATIC_PATHS = ['images', 'extra/CNAME']
+STATIC_PATHS = ['images', 'extra/CNAME', 'extra/google323cfb4cc82425cf.html']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},'extra/google323cfb4cc82425cf.html': {'path': 'google323cfb4cc82425cf.html'}}
 
 TIMEZONE = 'America/Anchorage'
