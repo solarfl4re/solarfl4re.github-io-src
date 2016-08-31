@@ -10,6 +10,8 @@ PATH = 'content'
 STATIC_PATHS = ['images', 'extra/CNAME', 'extra/google323cfb4cc82425cf.html']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},'extra/google323cfb4cc82425cf.html': {'path': 'google323cfb4cc82425cf.html'}}
 
+READERS = {'html': None}
+
 TIMEZONE = 'America/Anchorage'
 
 DEFAULT_LANG = 'en'
